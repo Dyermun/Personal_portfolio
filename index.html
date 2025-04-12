@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>   
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animated-text">Hello, it'me <span class="highlight">Rey Cab</span></h1>
+                <h2 class="animated-subtext">And Im Gwapo</h2>
+                <p class="animated-paragraph">This portfolio showcases my academic project, skills, and personal development</p>
+                <a href="#projects" class="btn pulse">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="image/about.jpg" alt="Profile Image" class="profile-img">
+                <div class="circle-animation"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title slide-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/about (2).jpg" alt="About Image" class="slide-in from-left">
+                </div>
+                <div class="about-text slide-in from-right">
+                    <h3 class="whitext">Im Rey</h3>
+                    <p>A student who endjoys learning new Things,This portfolio shows some of my work and what i have learned.</p>
+                    <h3 class="whitext">Education</h3>
+                    <p>I student at JRMSU is studying for Bachelor degree in Information System (BSIS) to learn about system analysis , Database management, and Software development fo a career in technolgy.</p>
+                    <div class="info">
+                        <ul>
+                            <h3 class="whitext">Skill to develop</h3>
+                            <li class="info-item">Django</li>
+                            <li class="info-item">HTML</li>
+                        <li class="info-item">CSS</li>
+                        <li class="info-item">Javascript</li>
+                        <li class="info-item">Mysql</li>
+                        </ul>
+                        
+                    </div>
+                    <a href="#contact" class="btn">Hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+<!--deleted skills-->
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+                <button class="filter-btn" data-filter="webdesign">Web Design</button>
+                
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="database">
+                    <img src="image/data.png"   alt="">
+                    <div class="project-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Full-featured online store with payment integration</p>
+                        <a href="second.html"  target="_self" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item" data-category="webdesign">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <h3>Task Manager App</h3>
+                        <p>Productivity application with cloud sync</p>
+                        <a href="second.html" target="_self" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item" data-category="java">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Logo and branding for a startup company</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item" data-category="database">
+                    <img src="image/database.png"   alt="">
+                    <div class="project-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Full-featured online store with payment integration</p>
+                        <a href="second.html"  target="_self" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item" data-category="webdesign">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <h3>Task Manager App</h3>
+                        <p>Productivity application with cloud sync</p>
+                        <a href="second.html" target="_self" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item" data-category="java">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Logo and branding for a startup company</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+
+    </section>
+<!--End project-->
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title slide-in">Get In Touch</h2>
+            <div class="social-icons">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:youremail@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              </div>
+            <div class="guestbook-form">
+                <h2>Sign Our Guestbook</h2>
+                <form id="guestbookForm">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Your Comment:</label>
+                        <textarea id="comment" name="comment" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <div id="successMessage" class="success-message">Thank you for signing our guestbook!</div>
+                    <div id="errorMessage" class="error-message">Please fill in all fields.</div>
+                </form>
+            </div>
+            
+            <div id="guestbookEntries">
+                <h2>Guestbook Entries</h2>
+                <div id="entriesContainer">
+                    <!-- Entries will be added here dynamically -->
+                </div>
+            </div>
+            <!--eend contact-->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
